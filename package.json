@@ -1,0 +1,14 @@
+{
+  "name": "webflow-parcel",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "license": "GPL-3.0",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "build:same": "parcel build --no-content-hash"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
